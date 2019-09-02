@@ -21,7 +21,7 @@ This sript is a cronjob for automated periodic file backups to Google Drive. It 
 - Satisfy the pre-requisites, ensure that ```gdrive``` is initialised.
 - Add the paths to folders/files you'd like to back-up in ```data_backup_paths.txt```in separate lines
 - Type ```crontab -e```in your terminal
-- Add the following line to the crontab file, add path to script file
+- Add the following line to the crontab file, fill in the <PATH_TO_SCRIPT>  
   ```20 4 * * * python3 <PATH_TO_SCRIPT>/auto_backup.py```
   
 This crontab setting will backup all your designated files once a day, at 4:20 am. The backups are smart updates and only incremental/decremental changes are reflected. You can change the update frequency as per your need, just don't mess your network bandwidth up. And don't get yourself flagged by Google.
