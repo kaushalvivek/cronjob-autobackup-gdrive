@@ -4,13 +4,13 @@
 
 This sript is a cronjob for automated periodic file backups to Google Drive. It is built upon the ```gdrive``` org's initiative.
 
-## Pre-Requisites
+## Pre-requisites
 - ```python3``` installed on system
 - A Google Drive account
 - ```gdrive``` command-line utility, [click here to install](https://github.com/gdrive-org/gdrive)
 - **```gdrive``` initialised** : check initialisation instructions below
 
-### ```gdrive``` Initialisation
+### ```gdrive``` Initialization
 - After installation (Step 3 of pre-requisites), run ```gdrive list```
 - Paste the prompted address in your browser
 - Sign into your Google Drive account
@@ -18,7 +18,7 @@ This sript is a cronjob for automated periodic file backups to Google Drive. It 
 - Paste the authentication code in your terminal
 
 ## Deployment
-- Satisfy the pre-requisites, ensure that ```gdrive``` is initialised.
+- Satisfy the pre-requisites, ensure that ```gdrive``` is initialized.
 - Add the paths to folders/files you'd like to back-up in ```data_backup_paths.txt```in separate lines
 - Type ```crontab -e```in your terminal
 - Add the following line to the crontab file, fill in the <PATH_TO_SCRIPT>  
