@@ -1,6 +1,6 @@
 ![version:1.0](https://img.shields.io/badge/version-1.0-blue) ![languge:python3](https://img.shields.io/badge/Python-3.6-brightgreen)
 
-# Automatic System Backup to Google Drive
+# Automatic File Backup to Google Drive
 
 This sript is a cronjob for automated periodic file backups to Google Drive. It is built upon the ```gdrive``` org's initiative.
 
