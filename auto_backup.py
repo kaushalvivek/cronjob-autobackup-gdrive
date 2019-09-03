@@ -31,5 +31,5 @@ else:
 # cleanup
 system("rm -rf sys_auto_backup.zip")
 system("rm -rf sys_auto_backup")
-system("rm -rf gdrive gdrive_status.txt")
+system("rm -rf gdrive_status.txt")
 
